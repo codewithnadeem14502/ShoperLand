@@ -24,3 +24,40 @@
     margin-left: 30px;
     font-size: 25px;
   }
+
+
+  /* For mobile devices */
+@media only screen and (max-width: 600px) {
+  .navbar {
+    height: 60px;
+    justify-content: center;
+  }
+  
+  .links {
+    margin-right: 0;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .links a {
+    margin: 0 10px 10px 10px;
+    font-size: 18px;
+  }
+}
+
+/* For tablet devices */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .navbar {
+    height: 70px;
+    /* width: 1660px; */
+  }
+  
+  .links {
+    margin-right: 20px;
+  }
+  
+  .links a {
+    font-size: 20px;
+  }
+}

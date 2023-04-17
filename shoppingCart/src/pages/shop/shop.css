@@ -58,3 +58,37 @@
     color: white;
     cursor: pointer;
   }
+  @media only screen and (max-width: 768px) {
+    /* Mobile and tablet devices */
+    
+    .shopTitle {
+    margin-top: 20px;
+    font-size: 28px;
+    }
+    
+    .products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+    }
+    
+    .product {
+    width: calc(100% - 20px);
+    margin-right: 0;
+    margin-left: 0;
+    }
+    
+    .product img {
+    width: 100%;
+    height: auto;
+    }
+    
+    .addToCartBttn {
+    font-size: 14px;
+    min-width: 80px;
+    padding: 5px 10px;
+    }
+    
+    }
